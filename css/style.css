@@ -1,3 +1,13 @@
 #titre {
     color: red;
+    animation: colorblink 2s infinite;
+}
+
+@keyframes colorblink {
+    0% {}
+    50% {color:green;}
+}
+
+#para {
+   font-size: 20px;
 }
